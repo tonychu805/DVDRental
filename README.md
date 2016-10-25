@@ -11,6 +11,7 @@ Set up:
   In command prompt/Terminal, type in: brew install mysql
   
 3. Set password:
+
   a.  In command prompt/Terminal, type in: mysql.server start
   b.  In command prompt/Terminal, type in: mysql.server stop
   c.  In command prompt/Terminal, type in: mysqld_safe --skip-grant-tables
