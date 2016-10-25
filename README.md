@@ -1,6 +1,6 @@
 ## Cohort Analysis of DVD rental consumer behaviours
 
-      This analysis is to explore the activities of different cohort based on customer's joining date on the DVD rental services.
+   This analysis is to explore the activities of different cohort based on customer's joining date on the DVD rental services.
 Various tables were used and analyzed; Ultimately, a cohort table was formed that includes each cohort's first rental month, month after joining, cohort size, and revenue per month. A pivot table was also created from the cohort table that summarizes each cohort's customer life time value, and each month's total revenue.
 
 #Set up:
