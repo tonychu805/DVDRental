@@ -38,9 +38,13 @@ Set up:
 
 5. Open the application and set login info:
   a. Choose Socket
+  
   b. Name: SQLforNEWBS
+  
   c. USERNAME: root
+  
   d. PASSWORD: Enter the one you set earlier
+  
   e. Click Connect
 
 6. Drag 'sakila-schema.sql' and 'sakila-data.sql' into the Query tab subsequently in Sequel Pro; Select All, and click Run
