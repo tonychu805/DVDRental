@@ -13,16 +13,25 @@ Set up:
 3. Set password:
 
   a.  In command prompt/Terminal, type in: mysql.server start
+  
   b.  In command prompt/Terminal, type in: mysql.server stop
+  
   c.  In command prompt/Terminal, type in: mysqld_safe --skip-grant-tables
+  
   d.  Open New command prompt/terminal window, and type in: mysql -u root
+  
   e.  In the newly opened command prompt/terminal window, type in: UPDATE mysql.user SET authentication_string=PASSWORD('password') WHERE User='root';
       !!! Replace 'password' with your desired password !!!
+      
   f.  Type in: FLUSH PRIVILEGES; Then Close this window and open a new one
+  
   g.  Type in: mysql -u root -p
+  
   h.  It will ask you to enter the password, type in the password you just created
+  
   i.  Type in: ALTER USER 'root'@'localhost' IDENTIFIED BY 'password';
       !!! Replace 'password' with the password you set earlier !!!
+      
   j.  Close all command prompt/terminal windows
 
 4. Download Sequel Pro -> http://www.sequelpro.com/download
