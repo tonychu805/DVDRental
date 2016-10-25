@@ -1,6 +1,6 @@
-# Cohort Analysis of DVD rental consumer behaviours
+## Cohort Analysis of DVD rental consumer behaviours
 
-Set up:
+#Set up:
 
 1. Install Homebrew through Terminal:
   Open command Prompt/Terminal and type in:
@@ -49,4 +49,4 @@ Set up:
 
 6. Drag 'sakila-schema.sql' and 'sakila-data.sql' into the Query tab subsequently in Sequel Pro; Select All, and click Run
 
-7. 
+
